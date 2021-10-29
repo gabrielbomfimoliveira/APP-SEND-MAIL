@@ -1,0 +1,29 @@
+/*.spinnermodal {*/
+/*    background-color: #FFFFFF;*/
+/*    height: 100%;*/
+/*    left: 0;*/
+/*    opacity: 0.5;*/
+/*    position: fixed;*/
+/*    top: 0;*/
+/*    width: 100%;*/
+/*    z-index: 100000;*/
+/*}*/
+#insc-loader{
+    position: relative;
+    top: 15px;
+    left: 48%;
+    width: 50px;
+    height: 50px;
+    border: 6px solid #999999;
+    border-top-color: #007bff;;
+    border-radius: 50%;
+    animation: is-rotating 1s infinite;
+    display: none;
+
+}
+
+@keyframes is-rotating {
+    to {
+        transform: rotate(1turn);
+    }
+}
